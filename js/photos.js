@@ -18,7 +18,7 @@ function populateGallery(gallery) {
 				galleryDiv.innerHTML = "<h3>Gallery not found</h3>";
 		}
 	}
-	$('#photogallery img').load(function(){
+	$('#photogallery').load(function(){
 		$(".throbber").remove();
 		$('#photogallery').fadeIn(500);
 	})
