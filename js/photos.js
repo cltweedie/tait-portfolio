@@ -4,7 +4,8 @@ var $gallery = $(".gallery");
 // populates gallery given as argument according to the length specified in the gallery object
 function populateGallery(gallery) {
 	$('#photogallery').hide();
-	$('#selectgallery').append('<div class="throbber">Loading...</div>');
+	$(".downicon").remove();
+	$('#selectgallery').append('<img class="downicon" src="img/down.png" alt="down">');
 	for (var project in galleries) {
 		if (galleries[project].name == gallery) {
 			galleryDiv.innerHTML = '<h3>' + galleries[project].name + '</h3>';
@@ -18,8 +19,7 @@ function populateGallery(gallery) {
 				galleryDiv.innerHTML = "<h3>Gallery not found</h3>";
 		}
 	}
-	$('#photogallery').load(function(){
-		$(".throbber").remove();
+	$('#photogallery img').load(function(){
 		$('#photogallery').fadeIn(500);
 	})
 }

@@ -163,11 +163,16 @@ footer {
 	padding: 10px;
 }
 
+figure {
+	display: inline-table;
+	vertical-align: center;
+}
+
 #selectgallery a {
 	padding: 0 20px;
 }
 
-#selectgallery img {
+#selectgallery .gallery img {
 	opacity: .7;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
@@ -177,8 +182,16 @@ footer {
     border-radius: 10%;
 }
 
-#selectgallery img:hover {
+#selectgallery .gallery img:hover {
 	opacity: 1;
+}
+
+.downicon {
+	height: 150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	opacity: .8;
 }
 
 #photogallery {
