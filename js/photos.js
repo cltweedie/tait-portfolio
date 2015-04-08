@@ -4,8 +4,8 @@ var $gallery = $(".gallery");
 // populates gallery given as argument according to the length specified in the gallery object
 function populateGallery(gallery) {
 	$('#photogallery').hide();
-	$(".downicon").remove();
-	$('#selectgallery').append('<img class="downicon" src="img/down.png" alt="down">');
+	// $("#downlink").remove();
+	// $('#selectgallery').append('<a id="downlink" href="#photogallery"><img id="downicon" src="img/down.png" alt="down"></a>');
 	for (var project in galleries) {
 		if (galleries[project].name == gallery) {
 			galleryDiv.innerHTML = '<h3>' + galleries[project].name + '</h3>';

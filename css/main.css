@@ -186,12 +186,20 @@ figure {
 	opacity: 1;
 }
 
-.downicon {
-	height: 150px;
+#downicon {
+	height: 100px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	opacity: .8;
+	opacity: .7;
+	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+#downicon:hover {
+	opacity: 1;
 }
 
 #photogallery {

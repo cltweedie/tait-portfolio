@@ -1,5 +1,3 @@
-
-
 function swapImages(){
       var $active = $("#mainimagespace .active");
       var $next = ($("#mainimagespace .active").next().length > 0) ? $('#mainimagespace .active').next() : $('#mainimagespace img:first');
@@ -8,10 +6,6 @@ function swapImages(){
         $next.fadeIn(3000).addClass("active");
       });
     }
-
-
-
-
 
   $('.indexmain').html('<img class="loadingspinner" src="img/loading.gif" alt="">');
 	$("#mainarea").fadeIn(2000);
