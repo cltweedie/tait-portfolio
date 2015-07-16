@@ -179,7 +179,7 @@ figure {
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
     border: black solid 3px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 #selectgallery .gallery img:hover {
@@ -245,17 +245,43 @@ h2 {
 	/*height: 60%;*/
 }
 
-#videogallery iframe {
-	border: solid black 4px;
-	box-shadow: 10px 10px 15px rgba(0,0,0, 0.5);
-	margin-bottom: 20px;
+.video-section {
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	margin: 30px auto;
+	clear: both;
 }
 
-/*#player {
-	margin-left: auto;
-	margin-right: auto;
-}*/
+.video-section img {
+	margin-top: 15px;
+	border: solid black 2px;
+	width: 50%;
+	box-shadow: 10px 10px 15px rgba(0,0,0, 0.5);
+}
 
+.video-section p {
+	font-size: 0.95em;
+	width: 45%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.text-left {
+	text-align: left;
+	float: right;
+}
+
+.text-right {
+	text-align: right;
+	float: left;
+}
 
 /*********** footer ***********/
 
