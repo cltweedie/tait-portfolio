@@ -12,11 +12,11 @@ function swapImages(){
 
   $(window).load(function(){
       $('.indexmain').html('<section id="mainimagespace">\
-      <img src="img/1.jpg" alt="" class="active" >\
-      <img src="img/2.jpg" alt="" >\
-      <img src="img/3.jpg" alt="" >\
-      <img src="img/4.jpg" alt="" >\
-    </section>');
+                            <img src="img/1.jpg" alt="" class="active" >\
+                            <img src="img/2.jpg" alt="" >\
+                            <img src="img/3.jpg" alt="" >\
+                            <img src="img/4.jpg" alt="" >\
+                            </section>');
       setInterval('swapImages()', 10000);
   });
   
