@@ -1,0 +1,24 @@
+videos
+
+- thumbnails on right, text on left (left-aligned), title on left.
+
+general
+
+- dark grey charcoal background / white text
+- leave gradient bored in centre of page
+- bootstrap nav bar along top
+- remove borders from images
+- remove ella (tait will send me images for slideshow)
+
+photos
+- add space between galleries and nav
+- flickr
+
+about
+- add image(s)
+
+add contact page
+
+slightly bigger font
+
+remove facebook social link, add instagram @taitphotos

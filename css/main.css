@@ -1,13 +1,14 @@
 body {
+	background-color: #34282C;
 	height: 100%;
-	width: 75%;
+	width: 100%;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Pontano Sans', Helvetica, sans-serif;
 	font-size: 16px;
-	color: #151515;
+	color: white;
 }
 
 a:link {
@@ -22,42 +23,15 @@ a:visited {
 
 h3 {
 	font-weight: normal;
-	color: #616161;
+	color: white;
 }
 
 header {
-	font-family: 'Exo 2', sans-serif;
-	font-size: 72px;
-	text-align: center;
-	color: black;
-	width: 360px;
-	height: 70px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 0;
-	margin-bottom: 0;
-	background: radial-gradient(at bottom, transparent, white 60%),
-				url("../img/headerimg.jpg") no-repeat center 9%;
-
+	padding-left: 10px;
 }
 
-#topimage {
-    opacity: .9;
-    transition: opacity 1s ease-out;
-    -moz-transition: opacity 1s ease-out;
-    -webkit-transition: opacity 1s ease-out;
-    -o-transition: opacity 1s ease-out;
-}
-
-#topimage:hover {
-	opacity: 1;
-}
-
-#menuholder {
-	padding-top: 0;
-	margin-top: 0;
-	text-align: center;
-	vertical-align: top;
+header img {
+	height: 50px;
 }
 
 #border {
@@ -72,48 +46,44 @@ header {
 	vertical-align: top;
 }
 
-#menu {
-	padding-top: 0;
-	padding-bottom: 0;
-	margin-top: 0;
-	vertical-align: top;
+#mainarea {
+	display: none;
 }
 
-#menu ul {
-	padding-left: 0;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 7px;
-	margin-bottom: 5px;
-	list-style: none;
-	vertical-align: top;
+.navbar {
+	margin-bottom: 0;
 }
 
-#menu ul li {
-	display: inline;
-	position: relative;
-	padding: 0 30px;
-	opacity: .6;
+.navbar-brand {
+	padding: 5px 0 0 20px;
+}
+
+.navbar-right {
+	padding-right: 50px;
+	font-size: 1.25em;
+}
+
+.navbar .navbar-nav > li > a {
+		opacity: .6;
     transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
     -webkit-transition: opacity 1s ease-out;
     -o-transition: opacity 1s ease-out;
+  }
+
+.navbar .navbar-nav > li > a:hover {
+	opacity: 1;
+	background-color: inherit;
 }
 
-#menu ul li:hover {
-    opacity: 1;
-}
-
-#mainarea {
-	/*width: 100%;*/
-	display: none;
+.navbar-right img {
+	height: 100%;
 }
 
 #textarea {
 	width: 55%;
 	position: relative;
-	text-align: center;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
@@ -132,7 +102,7 @@ header {
 	margin: 5px auto 0px auto;
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 100%;
 	text-align: center;
 }
 
@@ -141,10 +111,9 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	border: solid black 3px;
-	max-width: 100%;
+	max-width: 100%;                 /* change this to width to restore */
 	max-height: 100%;
-	box-shadow: 10px 10px 15px rgba(0,0,0, .5);
+	/*box-shadow: 10px 10px 15px rgba(0,0,0, .5);*/
 }
 
 #mainimagespace img.active {
@@ -154,6 +123,12 @@ header {
 footer {
 	display: block;
 	clear: both;
+}
+
+/************ about.html specific ***********/
+
+#mainarea .about {
+	margin-top: 100px;
 }
 
 /*********** photos.html specific ***********/
@@ -176,13 +151,11 @@ figure {
 }
 
 #selectgallery .gallery img {
-	opacity: .7;
+	opacity: .8;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
-    border: black solid 3px;
-    border-radius: 10px;
 }
 
 #selectgallery .gallery img:hover {
@@ -214,13 +187,16 @@ figure {
 	text-align: center;
 }
 
+#photogallery p, h3 {
+	text-align: left;
+}
+
 #photogallery img {
 	opacity: .8;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
-    border: black solid 1px;
     box-shadow: 10px 10px 15px rgba(0,0,0, .5);
     margin: 10px;
 }
@@ -428,6 +404,7 @@ footer p {
 
 	#textarea,
 	#mainimagespace {
+		height: auto;
 		float: none;
 		width: 100%;
 		margin: 0;
@@ -458,7 +435,7 @@ footer p {
 		padding: 0 5px;
 	}
 
-	#hide_about {
+	.hide_about {
 		display: none;
 	}
 
