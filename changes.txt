@@ -4,10 +4,10 @@ videos
 
 general
 
-- dark grey charcoal background / white text
-- leave gradient bored in centre of page
-- bootstrap nav bar along top
-- remove borders from images
+x dark grey charcoal background / white text 
+- leave gradient border in centre of page
+x bootstrap nav bar along top
+x remove borders from images
 - remove ella (tait will send me images for slideshow)
 
 photos
