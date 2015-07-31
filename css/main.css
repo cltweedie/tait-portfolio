@@ -124,6 +124,10 @@ footer {
 	clear: both;
 }
 
+	.loadingspinner img {
+		height: 100px;
+	}
+
 /************ about.html specific ***********/
 
 #mainarea .about {
@@ -141,13 +145,11 @@ footer {
 	padding: 10px;
 }
 
-figure {
-	display: inline-table;
-	vertical-align: center;
-}
-
-#selectgallery a {
-	padding: 0 20px;
+.gallery-div {
+	max-width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
 }
 
 #selectgallery .gallery img {
@@ -196,7 +198,7 @@ figure {
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
-    box-shadow: 10px 10px 15px rgba(0,0,0, .5);
+    /*box-shadow: 10px 10px 15px rgba(0,0,0, .5);*/
     margin: 10px;
 }
 
@@ -275,21 +277,6 @@ footer p {
 }
 
 .social-icon:hover {
-	opacity: 1;
-}
-
-.social-icon-large {
-	width: 40px;
-	margin: auto;
-	margin-top: 60px;
-	opacity: .4;
-    transition: opacity 1s ease-out;
-    -moz-transition: opacity 1s ease-out;
-    -webkit-transition: opacity 1s ease-out;
-    -o-transition: opacity 1s ease-out;
-}
-
-.social-icon-large:hover {
 	opacity: 1;
 }
 

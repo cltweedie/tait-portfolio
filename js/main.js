@@ -7,14 +7,15 @@ function swapImages(){
       });
     }
 
-  $('.indexmain').html('<img class="loadingspinner" src="img/loading.gif" alt="">');
-	$("#mainarea").fadeIn(2000);
+  $('.indexmain').html('<img class="loadingspinner" src="img/spinner2.gif" alt="">');
+  $("#mainarea").fadeIn(2000);
 
   $(window).load(function(){
       $('.indexmain').html('<section id="mainimagespace" class="col-md-12">\
                             <img src="img/slide1.jpg" alt="" class="active" >\
                             <img src="img/slide2.jpg" alt="" >\
                             <img src="img/slide3.jpg" alt="" >\
+                            <img src="img/slide4.jpg" alt="" >\
                             </section>');
       setInterval('swapImages()', 10000);
   });

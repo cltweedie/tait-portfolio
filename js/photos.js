@@ -10,7 +10,7 @@ function populateGallery(gallery) {
 			galleryDiv.innerHTML += '<p>' + galleries[project].description + '</p>';
 			var leng = galleries[project].images;
 				for (i=1; i<=leng; i++) {
-					galleryDiv.innerHTML += '<a href="img/gallery/' + gallery + '/'+ i + '.jpg" data-lightbox="1" data-title="'+ galleries[project].name + '"><img src="img/gallery/' + gallery + '/' + i + 'tn.jpg" /></a>';
+					galleryDiv.innerHTML += '<a href="img/gallery/' + gallery + '/'+ i + '.jpg" data-lightbox="1" data-title="'+ galleries[project].captions[i-1] + '"><img src="img/gallery/' + gallery + '/' + i + 'tn.jpg" /></a>';
 				}
 			break;
 		} else {
@@ -18,7 +18,7 @@ function populateGallery(gallery) {
 		}
 	}
 	$('#photogallery img').load(function(){
-		$('#photogallery').fadeIn(500);
+		$('#photogallery').fadeIn(1000);
 	})
 }
 
