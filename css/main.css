@@ -130,8 +130,22 @@ footer {
 
 /************ about.html specific ***********/
 
+.aboutbody {
+	background: -webkit-radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* Standard syntax */
+	background-size: cover;
+}
+
 #mainarea .about {
 	margin-top: 100px;
+}
+
+#me {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*********** photos.html specific ***********/
@@ -198,7 +212,6 @@ footer {
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
-    /*box-shadow: 10px 10px 15px rgba(0,0,0, .5);*/
     margin: 10px;
 }
 
@@ -232,6 +245,16 @@ h2 {
 .video-section p {
 	font-size: 0.95em;
 	text-align: left;
+}
+
+/*********** contact.html specific ************/
+
+.contact-list {
+	list-style: none;
+}
+
+.contact-list li {
+	margin-bottom: 10px;
 }
 
 /*********** footer ***********/
