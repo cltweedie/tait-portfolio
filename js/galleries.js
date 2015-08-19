@@ -112,5 +112,36 @@ var galleries = [
 		"A controversial rabbi instructs a young follower.",
 		"The military guards the crowd."
 	]
-}
-];
+},
+{
+	name: 'Protest',
+	description: "Protests make the fabric of society. They are our expression when something is wrong or\
+ perceived to be wrong. Throughout 2014 I started following the anti-Israel protests that\
+  sprung up in England due to the summer conflict. When I returned to Israel towards the end\
+   of the conflict, Israel itself had become a country of protest and demonstration. A wedding\
+    is a private event but, an Israeli girl marrying an Arab man was too much for many.\
+     The black shirts with yellow logo you see are those of Lehava, a far right Jewish group \
+     dedicated to stopping the unison of Jews with non-Jews, for they believe it is “the silent Holocaust”. \
+     On the other side were those who believed any couple should be able to marry whatever their religion \
+     or nationality, and supported the guests as they entered the venue. ",
+	images: 17,
+	captions: [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	]
+}];

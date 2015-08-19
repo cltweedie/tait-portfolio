@@ -131,21 +131,46 @@ footer {
 /************ about.html specific ***********/
 
 .aboutbody {
-	background: -webkit-radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* For Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(transparent, #34282C 70%), url('../img/sunnies.jpg'); /* Standard syntax */
+	background: -webkit-radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* Standard syntax */
 	background-size: cover;
+	height: 600px;
 }
 
 #mainarea .about {
 	margin-top: 100px;
 }
 
-#me {
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
+/*********** contact.html specific **********/
+
+.contact-icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	vertical-align: text-top;
+	border-radius: 20%;
+}
+
+.contact-list {
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+}
+
+.contact-list li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contactbody {
+	background: -webkit-radial-gradient(transparent 20%, #34282C 60%), url('../img/zambia_contact.jpg'); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(transparent, #34282C 60%), url('../img/zambia_contact.jpg'); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(transparent, #34282C 60%), url('../img/zambia_contact.jpg'); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(transparent -50%, #34282C 60%), url('../img/zambia_contact.jpg'); /* Standard syntax */
+	background-size: cover;
+	height: 600px
 }
 
 /*********** photos.html specific ***********/
@@ -245,16 +270,6 @@ h2 {
 .video-section p {
 	font-size: 0.95em;
 	text-align: left;
-}
-
-/*********** contact.html specific ************/
-
-.contact-list {
-	list-style: none;
-}
-
-.contact-list li {
-	margin-bottom: 10px;
 }
 
 /*********** footer ***********/
