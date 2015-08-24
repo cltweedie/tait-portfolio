@@ -3,10 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/jgallery.min.css?v=1.5.5" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/justifiedGallery.min.css">
-	<link href="css/lightbox.css" rel="stylesheet" />
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/jgallery.min.js?v=1.5.5"></script>
+	<script type="text/javascript" src="js/tinycolor-0.9.16.min.js"></script>
+	<script type="text/javascript" src="js/touchswipe.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="img/icon.ico">
@@ -18,7 +22,7 @@
 		<header class="navbar navbar-static-top">
 		<div class="container">
 			<a class="navbar-brand" href="index.html"><img id="topimage" src="img/logo_white.png" alt=""></a>
-				<nav class="collapse navbar-collapse">
+				<nav id="navlinks" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="about.html"><img src="img/about_white.png" /></a></li>
 						<li><a href="photos.html"><img src="img/photography_white.png" /></a></li>
@@ -26,50 +30,76 @@
 						<li><a href="contact.html"><img src="img/contact_white.png" /></a></li>
 					</ul>
 				</nav>
+				<button class="btn btn-primary navbar-toggle"
+					data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
 		</div>
-	</header>
-			<div id="mainarea">
+	</header class="photo_header">
+		<div id="mainarea">
+			<div id="photos_area">
+
+			<script type="text/javascript">
+			$( function(){
+    
+} );
+
+			</script>
 		
-				<div id="selectgallery">
+			<div id="selectgallery">
 		
 					<!-- Add new galleries here with gallery class and same ID as gallery object name -->
-					<div class="gallery-div">
-						<a href="" id="Balata" class="gallery"><img src="img/gallery/Balata/12tn.jpg" alt="" class="galimage"></a>
+					<div class=" gallery-div col-md-offset-1 col-md-2 col-xs-offset-1 col-xs-2">
+						<a href="" id="Balata" class="hvr-grow gallery"><img src="img/gallery/Balata/12tn.jpg" alt=""></a>
 						<br>
 						<span>Balata Refugee Camp</span>
 					</div>
 		
-					<div class="gallery-div">
-						<a href="" id="Zambia" class="gallery"><img src="img/gallery/Zambia/1tn.jpg" alt=""></a>
+					<div class="gallery-div col-md-2 col-xs-2">
+						<a href="" id="Zambia" class="hvr-grow gallery"><img src="img/gallery/Zambia/1tn.jpg" alt=""></a>
 						<br>
 						<span>Zambia</span>
 					</div>
 
-					<div class="gallery-div">
-						<a href="" id="Ceasefire" class="gallery"><img src="img/gallery/Ceasefire/1tn.jpg" alt=""></a>
+					<div class="gallery-div col-md-2 col-xs-2">
+						<a href="" id="Ceasefire" class="hvr-grow gallery"><img src="img/gallery/Ceasefire/2tn.jpg" alt=""></a>
 						<br>
 						<span>Ceasefire</span>
 					</div>
 
-					<div class="gallery-div">
-						<a href="" id="Protest" class="gallery"><img src="img/gallery/Protest/3tn.jpg" alt=""></a>
+					<div class="gallery-div col-md-2 col-xs-2">
+						<a href="" id="Protest" class="hvr-grow gallery"><img src="img/gallery/Protest/3tn.jpg" alt=""></a>
 						<br>
 						<span>Protest</span>
 					</div>
-		
-				</div>
-		
-						<div id="photogallery">
-						</div>
+
+					<div class="gallery-div col-md-2 col-xs-2">
+						<a href="" id="South_America" class="hvr-grow gallery"><img src="img/gallery/South_America/1tn.jpg" alt=""></a>
+						<br>
+						<span>South America</span>
+					</div>
 		
 				</div>
 
-			<script src="js/jquery-2.1.3.min.js"></script>
+				<div id="gallery">
+		    
+
+
+
+		    </div>
+		    
+			</div>
+
+		
+		</div>
+
+	</div>
+
 			<script src="js/bootstrap.min.js"></script>
 			<script src="js/main.js"></script>
 			<script src="js/galleries.js"></script>
 			<script src="js/photos.js"></script>
-			<script src="js/lightbox.min.js"></script>
 
 
 </body>

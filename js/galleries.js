@@ -86,8 +86,9 @@ var galleries = [
 	 the marriage of an Israeli girl to an Arabic man. In Jerusalem kids throwing stones at police,\
 	 police teargassing kids is not so unusual. But the war had heightened tensions and people were\
 	 nervously anticipating a return to normality - that of a state of ceasefire. ",
-	images: 23,
+	images: 24,
 	captions: [
+		"",
 		"The wedding of Mahmoud Mansour and Morel Malka caused much controversy and protest. A man is stunned and led away by police.",
 		"Peace activists lay flowers as close to Gaza as they can as a ballon drone hovers overhead.",
 		"Protesters blur the lines between pro-war and anti-war as they campaign for the security of border towns such as Sderot to be kept as safe as Tel Aviv.",
@@ -126,6 +127,38 @@ var galleries = [
      or nationality, and supported the guests as they entered the venue. ",
 	images: 17,
 	captions: [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	]
+},
+{
+	name: 'South_America',
+	description: "",
+	images: 25,
+	captions: [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
 		"",
 		"",
 		"",

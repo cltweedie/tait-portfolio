@@ -1,29 +1,42 @@
-var galleryDiv = document.getElementById("photogallery");
-var $gallery = $(".gallery");
+var galleryDiv = document.getElementById("gallery");
 
-// populates gallery given as argument according to the length specified in the gallery object
-function populateGallery(gallery) {
-	$('#photogallery').hide();
+
+function populateGallery(album) {
+	galleryDiv.innerHTML = "";
+	var gallery_name = album;
 	for (var project in galleries) {
-		if (galleries[project].name == gallery) {
-			galleryDiv.innerHTML = '<h3>' + galleries[project].name + '</h3>';
-			galleryDiv.innerHTML += '<p>' + galleries[project].description + '</p>';
-			var leng = galleries[project].images;
-				for (i=1; i<=leng; i++) {
-					galleryDiv.innerHTML += '<a href="img/gallery/' + gallery + '/'+ i + '.jpg" data-lightbox="1" data-title="'+ galleries[project].captions[i-1] + '"><img src="img/gallery/' + gallery + '/' + i + 'tn.jpg" /></a>';
-				}
-			break;
+		if (gallery_name == galleries[project].name) {
+			console.log("gallery " + gallery_name + " found.");
+			for (var image=0; image < galleries[project].images; image++) {
+				var caption = galleries[project].captions[image];
+				galleryDiv.innerHTML += '<a href="img/gallery/' + gallery_name + '/' + image + '.jpg" data-jgallery-album-title="' + 
+				gallery_name + '"><img src="img/gallery/' + gallery_name + '/' + image + 'tn.jpg" alt="' + caption + '" /></a>';
+			}
+			$( "#gallery" ).jGallery( {
+        "transitionCols":"1",
+        "transitionRows":"1",
+        "thumbnailsPosition":"left",
+        "thumbType":"image",
+        "backgroundColor":"34282C",
+        "textColor":"FFFFFF",
+        "mode":"standard",
+        "width":"95%",
+        "titleExpanded":true
+		    } );
 		} else {
-				galleryDiv.innerHTML = "<h3>Gallery not found</h3>";
+
+		}
 		}
 	}
-	$('#photogallery img').load(function(){
-		$('#photogallery').fadeIn(1000);
-	})
-}
-
-$gallery.click(function() {
+		
+$('.gallery').click(function() {
+	console.log("clicked");
 	populateGallery($(this).attr('id'));
 	return false;
 });
+
+
+
+
+
 
