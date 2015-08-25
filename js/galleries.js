@@ -11,8 +11,9 @@ var galleries = [
 	Posters of martyrs hang off bullet-riddled walls, and many in the neighbourhood have fought for Hamas and other groups. \
 	Almost everyone has lost relatives to fighting. The IDF presence is not as strong as it has been, \
 	but they have created another generation that will despise them.<br>",
-	images: 12,
+	images: 13,
 	captions: [
+		"",
 		"School girls pass the UNWRA administered health clinic and Balata main mosque.",
 		"Posters of martyred fighters. Balata has long been a hotbed for uprising.",
 		"Boys leave their UNWRA administered school.",
@@ -37,8 +38,9 @@ var galleries = [
 	Danish volunteers and local workers set about turning this forgotten corner of a forgotten \
 	country into a special place for Zambian teenagers to realise their potential.\
 	<br><br>Check out my videos page for the promo film.<br>",
-	images: 36,
+	images: 38,
 	captions: [
+		"",
 		"Shiwa Ng’andu is a mansion built by Stewart Gore-Browne, who shunned colonial repression and built villages and schools for his 200 Zambian employees. It still operates as a home and wildlife park.",
 		"John takes a break from shifting the heavy clay to eat a mango, along with fish, the only food in abundance for local villagers.",
 		"Danish volunteers shift rocks from the lake edge to make a swimmable area.",
@@ -74,7 +76,8 @@ var galleries = [
 		"In Mplungu, a man offers watch repair as his son guards a food delivery.",
 		"A bike is loaded onto a minibus - the two main forms of transport in Northern Zambia.",
 		"‘In god we trust’ Garage workers in Mbala.",
-		"Jim sets course for the Eventure plot, with a boat full of supplies."
+		"Jim sets course for the Eventure plot, with a boat full of supplies.",
+		"An Mbeti local who spends her days sifting maize and looking after her granddaughter. "
 	]
 },
 {
@@ -125,8 +128,9 @@ var galleries = [
      dedicated to stopping the unison of Jews with non-Jews, for they believe it is “the silent Holocaust”. \
      On the other side were those who believed any couple should be able to marry whatever their religion \
      or nationality, and supported the guests as they entered the venue. ",
-	images: 17,
+	images: 18,
 	captions: [
+		"",
 		"",
 		"",
 		"",
@@ -149,8 +153,9 @@ var galleries = [
 {
 	name: 'South_America',
 	description: "",
-	images: 25,
+	images: 26,
 	captions: [
+		"",
 		"",
 		"",
 		"",

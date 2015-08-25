@@ -64,11 +64,11 @@ header img {
 }
 
 .navbar .navbar-nav > li > a {
-		opacity: .6;
-    transition: opacity 1s ease-out;
-    -moz-transition: opacity 1s ease-out;
-    -webkit-transition: opacity 1s ease-out;
-    -o-transition: opacity 1s ease-out;
+	opacity: .6;
+  transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -webkit-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
   }
 
 .navbar .navbar-nav > li > a:hover {
@@ -144,6 +144,11 @@ footer {
 }
 
 /*********** contact.html specific **********/
+
+#demotix {
+	width: 100px;
+	margin-top: 20px;
+}
 
 .contact-icon {
 	width: 30px;
