@@ -110,7 +110,7 @@ header img {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	width: 85%;                 /* change this to max-width to restore */
+	width: 100%;                 /* change this to max-width to restore */
 	max-height: 100%;
 	box-shadow: 10px 10px 15px rgba(0,0,0, .5);
 }
@@ -131,16 +131,25 @@ footer {
 /************ about.html specific ***********/
 
 .aboutbody {
-	background: -webkit-radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* For Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(transparent, #34282C 60%), url('../img/sunnies.jpg'); /* Standard syntax */
+	background: url('../img/sunnies.jpg');
 	background-size: cover;
 	height: 600px;
 }
 
+.gradient {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1080px;
+	width: 100%;
+	background: -webkit-radial-gradient(transparent -50%, #34282C 60%);
+	background: -o-radial-gradient(transparent -50%, #34282C 60%);
+	background: -moz-radial-gradient(transparent -50%, #34282C 60%);
+	background: radial-gradient(transparent -50%, #34282C 60%);
+}
+
 #mainarea .about {
-	margin-top: 100px;
+	margin-top: 250px;
 }
 
 /*********** contact.html specific **********/
@@ -170,10 +179,7 @@ footer {
 }
 
 .contactbody {
-	background: -webkit-radial-gradient(transparent 20%, #34282C 60%), url('../img/zambia_contact.jpg'); /* Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(transparent, #34282C 60%), url('../img/zambia_contact.jpg'); /* For Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(transparent, #34282C 60%), url('../img/zambia_contact.jpg'); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(transparent -50%, #34282C 60%), url('../img/zambia_contact.jpg'); /* Standard syntax */
+  background: url('../img/zambia_contact.jpg'); /* Standard syntax */
 	background-size: cover;
 	height: 600px
 }
